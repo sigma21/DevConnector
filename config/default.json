@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://rootuser:1234@mernproject-self-zav2o.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "secrettoken"
+    "jwtSecret": "secrettoken",
+    "githubClientId":"c89dbec6fd3affc5a769",
+    "githubSecret": "389cc4450277f3a46b1054b35e143720c92ee090" 
 }
