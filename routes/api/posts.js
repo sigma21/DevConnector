@@ -136,7 +136,7 @@ router.put("/unlike/:id", auth, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
 
-    // Check if the post has already been liked
+    // Check if the post has already been unliked
     if (
       post.likes.filter(like => like.user.toString() === req.user.id).lenght === //error!! multiple unlikes are occuring!
       0
